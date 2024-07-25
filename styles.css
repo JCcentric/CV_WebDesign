@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+/* Header section */
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+
+#menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 1001;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+/* Hero Section */
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(28,26,150,1) 19%, rgba(9,9,121,1) 37%, rgba(16,126,148,1) 60%, rgba(6,169,201,1) 100%);
+}
