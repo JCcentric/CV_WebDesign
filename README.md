@@ -1,2 +1,2 @@
 # CV_WebDesign
-WEb design of my resume
+Web design of my resume/portfolio
